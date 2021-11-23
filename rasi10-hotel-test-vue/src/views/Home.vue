@@ -11,19 +11,19 @@
 		public loading: boolean = false
 
 		public get rooms() {
-			return this.$store.state.rooms || []
+			return this.$store.state.rooms
 		}
 
 		public get clients() {
-			return this.$store.state.clients || []
+			return this.$store.state.clients
 		}
 
 		public get bills() {
-			return this.$store.state.bills || []
+			return this.$store.state.bills
 		}
 
 		public get reservations() {
-			return this.$store.state.reservations || []
+			return this.$store.state.reservations
 		}
 
 		private async created() {
@@ -35,13 +35,12 @@
 		}
 
 		public get currentReservations() {
-			const reservations = this.reservations.filter((r) => {
+			return this.reservations.filter((r) => {
 				const start = new Date(`${r.start}T12:00:00`)
 				const end = new Date(`${r.end}T12:00:00`)
 				const now = new Date()
 				return start <= now && end >= now
-			})
-			return reservations?.length || 0
+			}).length
 		}
 
 		public get paidBills() {

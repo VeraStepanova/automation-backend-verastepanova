@@ -7,6 +7,15 @@ npm run build
 npm run start
 ```
 
+
+### Alternatively, you can run the three commands as one
+```
+npm install && npm run build && npm run start
+
+OBS: if you run into problems, before attempting to run again the command above, run the following commands:
+npm update
+npm cache clean --force
+```
 ### Run the project for developement
 ```
 npm run install

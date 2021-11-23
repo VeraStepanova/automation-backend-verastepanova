@@ -19,7 +19,7 @@ export function checkLoggedOut() {
 
 export async function logout() {
 	try {
-		await xhr.post(`${baseUrl}/api/logout`, null, authHeaders())
+		await xhr.post(`${baseUrl}/api/logout`, Store.state.user)
 	} catch (err) {
 		// Just logout anyway
 	} finally {
