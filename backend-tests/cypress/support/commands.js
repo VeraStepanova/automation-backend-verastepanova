@@ -40,7 +40,6 @@ Cypress.Commands.add('authenticateSession', () => {
         body: JSON.stringify(userCredentials)
     }).then((response => {
         expect(response.status).to.eq(200)
-        //cy.log(response.body) 
         Cypress.env({ loginToken: response.body })
     }))
 })

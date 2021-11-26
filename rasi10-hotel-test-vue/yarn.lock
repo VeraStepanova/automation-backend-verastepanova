@@ -2497,7 +2497,7 @@
   optionalDependencies:
     "fsevents" "^1.2.7"
 
-"chokidar@^3.2.2", "chokidar@^3.3.0", "chokidar@^3.4.1":
+"chokidar@^3.3.0", "chokidar@^3.4.1", "chokidar@^3.5.2":
   "integrity" "sha512-ekGhOnNVPgT77r4K/U3GDhu+FQ2S8TnK/s2KbIGXi0SZWuwkZ2QNyfWdZW+TVfn84DpEP7rLeCt2UI6bJ8GwbQ=="
   "resolved" "https://registry.npmjs.org/chokidar/-/chokidar-3.5.2.tgz"
   "version" "3.5.2"
@@ -3232,6 +3232,13 @@
     "ms" "^2.1.1"
 
 "debug@^3.2.6":
+  "integrity" "sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ=="
+  "resolved" "https://registry.npmjs.org/debug/-/debug-3.2.7.tgz"
+  "version" "3.2.7"
+  dependencies:
+    "ms" "^2.1.1"
+
+"debug@^3.2.7":
   "integrity" "sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ=="
   "resolved" "https://registry.npmjs.org/debug/-/debug-3.2.7.tgz"
   "version" "3.2.7"
@@ -6126,20 +6133,20 @@
     "stdout-stream" "^1.4.0"
     "true-case-path" "^1.0.2"
 
-"nodemon@^2.0.14":
-  "integrity" "sha512-frcpDx+PviKEQRSYzwhckuO2zoHcBYLHI754RE9z5h1RGtrngerc04mLpQQCPWBkH/2ObrX7We9YiwVSYZpFJQ=="
-  "resolved" "https://registry.npmjs.org/nodemon/-/nodemon-2.0.14.tgz"
-  "version" "2.0.14"
+"nodemon@^2.0.15":
+  "integrity" "sha512-gdHMNx47Gw7b3kWxJV64NI+Q5nfl0y5DgDbiVtShiwa7Z0IZ07Ll4RLFo6AjrhzMtoEZn5PDE3/c2AbVsiCkpA=="
+  "resolved" "https://registry.npmjs.org/nodemon/-/nodemon-2.0.15.tgz"
+  "version" "2.0.15"
   dependencies:
-    "chokidar" "^3.2.2"
-    "debug" "^3.2.6"
+    "chokidar" "^3.5.2"
+    "debug" "^3.2.7"
     "ignore-by-default" "^1.0.1"
     "minimatch" "^3.0.4"
-    "pstree.remy" "^1.1.7"
+    "pstree.remy" "^1.1.8"
     "semver" "^5.7.1"
     "supports-color" "^5.5.0"
     "touch" "^3.1.0"
-    "undefsafe" "^2.0.3"
+    "undefsafe" "^2.0.5"
     "update-notifier" "^5.1.0"
 
 "nopt@~1.0.10":
@@ -7152,7 +7159,7 @@
   "resolved" "https://registry.npmjs.org/psl/-/psl-1.8.0.tgz"
   "version" "1.8.0"
 
-"pstree.remy@^1.1.7":
+"pstree.remy@^1.1.8":
   "integrity" "sha512-77DZwxQmxKnu3aR542U+X8FypNzbfJ+C5XQDk3uWjWxn6151aIMGthWYRXTqT1E5oJvg+ljaa2OJi+VfvCOQ8w=="
   "resolved" "https://registry.npmjs.org/pstree.remy/-/pstree.remy-1.1.8.tgz"
   "version" "1.1.8"
@@ -8592,10 +8599,10 @@
     "micromatch" "^4.0.0"
     "semver" "^6.0.0"
 
-"ts-md5@^1.2.9":
-  "integrity" "sha512-/Efr7ZfGf8P+d9HXh0PLQD1CDipqD8j9apCFG96pODDoEaFLxXpV4En6tAc6y3fWyfhFGrqtNBRBS+eLVIB2uQ=="
-  "resolved" "https://registry.npmjs.org/ts-md5/-/ts-md5-1.2.9.tgz"
-  "version" "1.2.9"
+"ts-md5@^1.2.10":
+  "integrity" "sha512-ZpBxcZRHSqVMWU4lE6pTMM6PTxSNZM6ziLwasimxxE/SiItgdalL8bKproawJ+6cPR4M2mSD4+cAgt90VYzjUQ=="
+  "resolved" "https://registry.npmjs.org/ts-md5/-/ts-md5-1.2.10.tgz"
+  "version" "1.2.10"
 
 "ts-pnp@^1.1.6":
   "integrity" "sha512-csd+vJOb/gkzvcCHgTGSChYpy5f1/XKNsmvBGO4JXS+z1v2HobugDz4s1IeFXM3wZB44uczs+eazB5Q/ccdhQw=="
@@ -8703,7 +8710,7 @@
     "has-symbols" "^1.0.2"
     "which-boxed-primitive" "^1.0.2"
 
-"undefsafe@^2.0.3":
+"undefsafe@^2.0.5":
   "integrity" "sha512-WxONCrssBM8TSPRqN5EmsjVrsv4A8X12J4ArBiiayv3DyyG3ZlIg6yysuuSYdZsVz3TKcTg2fd//Ujd4CHV1iA=="
   "resolved" "https://registry.npmjs.org/undefsafe/-/undefsafe-2.0.5.tgz"
   "version" "2.0.5"
@@ -9166,7 +9173,7 @@
     "source-list-map" "^2.0.0"
     "source-map" "~0.6.1"
 
-"webpack@^1.0.0 || ^2.0.0 || ^3.0.0 || ^4.0.0", "webpack@^2.0.0 || ^3.0.0 || ^4.0.0", "webpack@^3.0.0 || ^4.1.0 || ^5.0.0-0", "webpack@^4.0.0", "webpack@^4.0.0 || ^5.0.0", "webpack@^4.1.0 || ^5.0.0-0", "webpack@^4.36.0 || ^5.0.0", "webpack@^4.4.0", "webpack@>=2", "webpack@>=4.0.0":
+"webpack@^1.0.0 || ^2.0.0 || ^3.0.0 || ^4.0.0", "webpack@^2.0.0 || ^3.0.0 || ^4.0.0", "webpack@^3.0.0 || ^4.1.0 || ^5.0.0-0", "webpack@^4.0.0", "webpack@^4.0.0 || ^5.0.0", "webpack@^4.36.0 || ^5.0.0", "webpack@^4.4.0", "webpack@>=2", "webpack@>=4.0.0":
   "integrity" "sha512-6jJuJjg8znb/xRItk7bkT0+Q7AHCYjjFnvKIWQPkNIOyRqoCGvkOs0ipeQzrqz4l5FtN5ZI/ukEHroeX/o1/5Q=="
   "resolved" "https://registry.npmjs.org/webpack/-/webpack-4.46.0.tgz"
   "version" "4.46.0"
